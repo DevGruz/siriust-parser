@@ -13,8 +13,8 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone https://github.com/ваш-username/ваш-репозиторий.git
-    cd ваш-репозиторий
+    git clone https://github.com/DevGruz/siriust-parser.git
+    cd siriust-parser/
     ```
 
 2. Создайте виртуальное окружение (рекомендуется):
