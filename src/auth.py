@@ -1,6 +1,8 @@
-import requests
-from interfaces import IAuth
 import logging
+
+import requests
+
+from interfaces import IAuth
 
 logger = logging.getLogger(__name__)
 

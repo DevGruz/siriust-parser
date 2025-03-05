@@ -1,7 +1,8 @@
-import sqlite3
 import json
-from typing import Any, Dict, List
 import logging
+import sqlite3
+from typing import Any, Dict, List
+
 from interfaces import IStorage
 
 logger = logging.getLogger(__name__)

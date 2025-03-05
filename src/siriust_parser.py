@@ -1,5 +1,6 @@
-from interfaces import IAuth, IDataParser, IStorage
 import logging
+
+from interfaces import IAuth, IDataParser, IStorage
 
 logger = logging.getLogger(__name__)
 

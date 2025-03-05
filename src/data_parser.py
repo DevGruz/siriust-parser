@@ -1,8 +1,10 @@
+import logging
 from typing import Any
+
 import requests
 from lxml import html
+
 from interfaces import IDataParser
-import logging
 
 logger = logging.getLogger(__name__)
 

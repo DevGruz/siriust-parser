@@ -1,11 +1,11 @@
-import requests
 import logging
+
+import requests
 
 from auth import Auth
 from data_parser import DataParser
 from siriust_parser import SiriustParser
-from storages import SQLiteStorage, JsonStorage  # noqa: F401
-
+from storages import JsonStorage, SQLiteStorage  # noqa: F401
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
